@@ -34,13 +34,13 @@ const Contact = () => {
       // 1️⃣ Send confirmation email to the user
       await emailjs.send(
         "service_6744gjq", // Replace with your EmailJS Service ID
-        "template_user_confirmation", // Template for user confirmation email
+        "template_user", // Template for user confirmation email
         {
           from_name: formData.name,
           from_email: formData.email,
           to_email: formData.email, // Sends confirmation email to user
         },
-        "v4JbuC3C5pTYfTvCr" // Replace with your EmailJS Public Key
+        "LbRFhKl1Hv5rrVgr6" // Replace with your EmailJS Public Key
       );
 
       // 2️⃣ Send form submission to admin
@@ -55,7 +55,7 @@ const Contact = () => {
           message: formData.message,
           to_email: companyInfo.email, // Sends form details to admin
         },
-        "v4JbuC3C5pTYfTvCr" // Replace with your EmailJS Public Key
+        "LbRFhKl1Hv5rrVgr6" // Replace with your EmailJS Public Key
       );
 
       toast.success("Message sent successfully! You will receive a confirmation email.");

@@ -9,7 +9,7 @@ export const companyInfo = {
   name: 'STEM Non-woven Bags',
   location: 'Lahore, Pakistan',
   phone: '+92 320 8443321',
-  email: 'info@stembags.com',
+  email: 'info@stemnonwoven.com',
   address: '104-A2/M Quaid-e-Azam Industrial Estate Kot Lakhpat',
   socials: {
     facebook: 'https://facebook.com/stembags',
