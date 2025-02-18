@@ -40,7 +40,7 @@ const Home = () => {
               onClick={() => navigate('/contact')}
               className="bg-white text-emerald-600 px-8 py-3 rounded-md font-semibold hover:bg-emerald-50 transition-colors"
             >
-              Get Started
+              Contact Us
             </motion.button>
           </div>
         </div>

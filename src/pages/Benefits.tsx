@@ -87,7 +87,7 @@ const Benefits = () => {
               className="btn-primary"
               onClick={() => window.location.href = '/contact'}
             >
-              Get Started
+              Contact Us
             </motion.button>
           </div>
         </div>
