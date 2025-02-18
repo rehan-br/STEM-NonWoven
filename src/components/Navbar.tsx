@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link to="/" className="flex items-center">
             {/* Replace /path/to/logo.png with the actual path to your new logo file */}
             <img
-              src="src\images\logo.JPG"
+              src="/logo.jpg"
               alt="STEM Logo"
               className="h-14 w-auto"
             />
