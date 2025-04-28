@@ -33,7 +33,7 @@ const Contact = () => {
     try {
       // 1️⃣ Send confirmation email to the user
       await emailjs.send(
-        "service_6744gjq", // Replace with your EmailJS Service ID
+        "service_fuuuffl", // Replace with your EmailJS Service ID
         "template_user", // Template for user confirmation email
         {
           from_name: formData.name,
@@ -45,7 +45,7 @@ const Contact = () => {
 
       // 2️⃣ Send form submission to admin
       await emailjs.send(
-        "service_6744gjq", // Replace with your EmailJS Service ID
+        "service_fuuuffl", // Replace with your EmailJS Service ID
         "template_admin", // Template for admin notification
         {
           from_name: formData.name,
@@ -120,6 +120,8 @@ const Contact = () => {
             {/* Contact Form */}
             <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.4 }}>
               <form onSubmit={handleSubmit} className="space-y-6">
+                <div>
+                </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700">Name *</label>
                   <input type="text" name="name" required value={formData.name} onChange={handleChange}

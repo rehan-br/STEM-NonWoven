@@ -12,9 +12,9 @@ export const companyInfo = {
   email: 'info@stemnonwoven.com',
   address: '104-A2/M Quaid-e-Azam Industrial Estate Kot Lakhpat',
   socials: {
-    facebook: 'https://facebook.com/stembags',
-    instagram: 'https://instagram.com/stembags',
-    linkedin: 'https://linkedin.com/company/stembags'
+    facebook: 'https://www.facebook.com/share/1NBbXhCbYP/?mibextid=wwXIfr',
+    instagram: 'https://www.instagram.com/stemnonwovenbags?igsh=bjNvYmR1YnI4cGs5&utm_source=qr',
+    linkedin: ''
   }
 };
 

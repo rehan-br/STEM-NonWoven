@@ -42,14 +42,14 @@ const Footer = () => {
               >
                 <Instagram className="h-6 w-6" />
               </a>
-              <a
+              {/* <a
                 href={companyInfo.socials.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-green-400 transition-colors"
               >
                 <Linkedin className="h-6 w-6" />
-              </a>
+              </a> */}
             </div>
           </div>
 
